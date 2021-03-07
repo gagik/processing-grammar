@@ -1,5 +1,6 @@
 /*
- Copyright (c) 2021 Gagik Amaryan (for Processing)
+ Derived from Processing preprocessor code by Jakub Valtar and Florian Jenett.
+ Copyright (c) 2021 Gagik Amaryan 
 */
 parser grammar ProcessingParser;
 
@@ -133,7 +134,7 @@ javaPrimitiveType
 literal
     :   hexColorLiteral
     |	IntegerLiteral
-    |   decimalfloatingPointLiteral
+    |   DecimalfloatingPointLiteral
     |	FloatingPointLiteral
     |   CharacterLiteral
     |   StringLiteral
