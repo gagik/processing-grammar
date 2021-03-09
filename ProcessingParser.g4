@@ -145,6 +145,6 @@ literal
 // As parser rule so this produces a separate listener
 // for us to alter its value.
 hexColorLiteral
-	:	HexColorLiteral
+	:   HEX_COLOR_LITERAL	
 	;
 

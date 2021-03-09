@@ -8,7 +8,7 @@ import JavaLexer;
 
 // add color literal notations for
 // #ff5522
-HexColorLiteral
+HEX_COLOR_LITERAL
 	:	'#' HexDigit HexDigit HexDigit HexDigit HexDigit HexDigit
 	;
 
